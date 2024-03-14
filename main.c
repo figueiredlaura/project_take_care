@@ -58,8 +58,6 @@ void tela_principal(void) {
     printf("===                      2. Módulo Serviços                                 ===\n");
     printf("===                      3. Módulo Agendamentos                             ===\n");
     printf("===                      4. Módulo Pagamentos                               ===\n");
-    printf("===                      5. Módulo Fidelidade                               ===\n");
-    printf("===                      6. Módulo Relatórios                               ===\n");
     printf("===                      0. Sair                                            ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
