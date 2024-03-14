@@ -28,7 +28,7 @@ int main(void) {
     tela_principal();
     tela_sobre();
     tela_equipe();
-    tela_menu_cliente();
+    tela_menucliente();
     tela_cadastrar_cliente();
     tela_pesquisar_cliente();
     tela_excluir_cliente();
@@ -38,7 +38,7 @@ int main(void) {
 
 /// Funções
 
-  void tela_principal(void) {
+void tela_principal(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -69,7 +69,7 @@ int main(void) {
 }
 
 
-  void tela_sobre(void) {
+void tela_sobre(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -96,7 +96,7 @@ int main(void) {
 
 
 }
-  void tela_equipe(void) {
+void tela_equipe(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -124,7 +124,7 @@ int main(void) {
 } 
 
 
-void tela_menu_cliente(void) {
+void tela_menucliente(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
