@@ -15,17 +15,30 @@
 void tela_principal(void);
 void tela_sobre(void);
 void tela_equipe(void);
+void tela_menucliente(void);
+void tela_cadastrar_cliente(void);
+void tela_pesquisar_cliente(void);
+void tela_alterar_cliente(void);
+void tela_excluir_cliente(void);
+
 /////
 // Programa principal
 int main(void) {
     tela_principal();
     tela_sobre();
     tela_equipe();
+    tela_menu_cliente();
+    tela_cadastrar_cliente();
+    tela_pesquisar_cliente();
+    tela_excluir_cliente();
+
     return 0;
 }
-/////
-// Funções
+
+/// Funções
+
   void tela_principal(void) {
+    system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
@@ -50,15 +63,20 @@ int main(void) {
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
 }
+
+
   void tela_sobre(void) {
+    system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                = = = = = FUNCIONALIDADE = = = = =                       ===\n");
-    printf("===                                                                         ===\n");
+    printf("===                    Developed by @figueiredlaura                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
@@ -72,15 +90,20 @@ int main(void) {
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+
+
 }
   void tela_equipe(void) {
+    system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                     = = = = = CONTATO = = = = =                         ===\n");
-    printf("===                                                                         ===\n");
+    printf("===                     Developed by @figueiredlaura                        ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
@@ -95,4 +118,156 @@ int main(void) {
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
 } 
+
+
+void tela_menu_cliente(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                     = = = = = Menu Cliente = = = = =                    ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                        1. Cadastrar Cliente                             ===\n");
+    printf("===                        2. Pesquisar Cliente                             ===\n");
+    printf("===                        3. Alterar Cliente                               ===\n");
+    printf("===                        4. Excluir Cliente                               ===\n");
+    printf("===                        0. Voltar ao menu principal                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                        Escolha a opção desejada:                        ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+} 
+
+
+void tela_cadastrar_cliente(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                 = = = = = Cadastrar Cliente = = = = =                   ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                      ======  CADASTRO  ======                           ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                         Nome:                                           ===\n");
+    printf("===                         Cpf:                                            ===\n");
+    printf("===                         Telefone/celular:                               ===\n");
+    printf("===                         Data de nascimento(dd/mm/aaaa):                 ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+} 
+
+
+void tela_pesquisar_cliente(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                 = = = = = Pesquisar Cliente = = = = =                   ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                    ======  PESQUISAR CLIENTE  ======                    ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                     Infome o número do Cpf(apenas números):             ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+void tela_alterar_cliente(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                 = = = = = Alterar Cliente = = = = =                     ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                    ======  ALTERAR CLIENTE  ======                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                     Infome o número do Cpf(apenas números):             ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+void tela_excluir_cliente(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                 = = = = = Excluir Cliente = = = = =                     ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                    ======  EXCLUIR CLIENTE  ======                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                     Infome o número do Cpf(apenas números):             ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+
+
