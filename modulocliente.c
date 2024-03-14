@@ -48,8 +48,6 @@ void tela_cadastrar_cliente(void) {
     printf("===                         Nome:                                           ===\n");
     printf("===                         Cpf:                                            ===\n");
     printf("===                         Telefone/celular:                               ===\n");
-    printf("===                         Data de nascimento(dd/mm/aaaa):                 ===\n");
-    printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
