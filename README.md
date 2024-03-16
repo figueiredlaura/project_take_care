@@ -4,6 +4,6 @@ Disciplina DCT1106 - Programação<br>
 Desenvolvido por @figueiredlaura -- desde Março, 2024 
 
 
-#Objetivo
+**Objetivo**
 
 Programa voltado para fins acadêmicos,com o objetivo de colocar em prática os conteúdos abordados na Disciplina de programação. (Linguagem C)
