@@ -1,17 +1,8 @@
-///                  Sistema de Gestão de Salão de Beleza                    ////
-///                      Developed by @figueiredlaura                       ////
-///////////////////////////////////////////////////////////////////////////////
-//                                                   -- since Mar, 2024 --   //                  
-///////////////////////////////////////////////////////////////////////////////
-///                                Semana 1                                 ///
-///////////////////////////////////////////////////////////////////////////////
-
-
 
 #include <stdio.h>
 #include <stdlib.h>
 
-/////
+
 // Assinatura das funções
 void tela_principal(void);
 void tela_sobre(void);
@@ -22,7 +13,7 @@ void tela_pesquisar_cliente(void);
 void tela_alterar_cliente(void);
 void tela_excluir_cliente(void);
 
-/////
+
 // Programa principal
 int main(void) {
     tela_principal();
