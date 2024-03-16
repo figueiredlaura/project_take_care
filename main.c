@@ -31,6 +31,7 @@ int main(void) {
     tela_menucliente();
     tela_cadastrar_cliente();
     tela_pesquisar_cliente();
+    tela_alterar_cliente();
     tela_excluir_cliente();
 
     return 0;
@@ -81,10 +82,11 @@ void tela_sobre(void) {
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("===                                                                         ===\n");
-    printf("===      Programa utilizado na Disciplina DCT1106 - Programação, para fins  ===\n");
-    printf("=== de avaliação. O programa contém os principais módulos e funcionalidades ===\n");
-    printf("=== exigidos no desenvolvimento do projeto. Serve de guia de consulta e     ===\n");
-    printf("=== referência para o desenvolvimento de futuros projetos.                  ===\n");
+    printf("===      ESTE PROGRAMA NÃO FOI FEITO PARA USO COMERCIAL.Programa utilizado  ===\n");
+    printf("===    na Disciplina DCT1106 - Programação, para fins de avaliação.         ===\n");
+    printf("===    O programa contém os principais módulos e funcionalidades            ===\n");
+    printf("===    exigidos no desenvolvimento do projeto. Serve de guia de consulta e  ===\n");
+    printf("===    referência para o desenvolvimento de futuros projetos.               ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
@@ -234,6 +236,7 @@ void tela_alterar_cliente(void) {
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
+    printf("\t        Informe a opção que deseja modificar ou adicionar: \n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 }
