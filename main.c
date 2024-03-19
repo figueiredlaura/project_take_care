@@ -192,7 +192,7 @@ void tela_pesquisar_cliente(void) {
     printf("===                    ======  PESQUISAR CLIENTE  ======                    ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===                     Infome o número do Cpf(apenas números):             ===\n");
+    printf("===                 Infome o número do Cpf(apenas números):                 ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
@@ -220,7 +220,7 @@ void tela_alterar_cliente(void) {
     printf("===                    ======  ALTERAR CLIENTE  ======                      ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===                     Infome o número do Cpf(apenas números):             ===\n");
+    printf("===                Infome o número do Cpf(apenas números):                  ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
@@ -231,6 +231,7 @@ void tela_alterar_cliente(void) {
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 }
+
 
 void tela_excluir_cliente(void) {
     system("clear||cls");
@@ -249,8 +250,37 @@ void tela_excluir_cliente(void) {
     printf("===                    ======  EXCLUIR CLIENTE  ======                      ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===                     Infome o número do Cpf(apenas números):             ===\n");
+    printf("===                Infome o número do Cpf(apenas números):                  ===\n");
     printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+
+void tela_serviços(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                    = = = = =   Serviços    = = = = =                    ===\n");
+    printf("===                      Developed by @figueiredlaura                       ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                               1.Manicure                                ===\n");
+    printf("===                               2.Pedicure                                ===\n");
+    printf("===                               3.Hidratação                              ===\n");
+    printf("===                               4.Escova                                  ===\n");
+    printf("===                               5.Penteado                                ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
