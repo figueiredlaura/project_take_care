@@ -13,6 +13,7 @@ void tela_pesquisar_cliente(void);
 void tela_alterar_cliente(void);
 void tela_excluir_cliente(void);
 void tela_servicos(void);
+void tela_novoservico(void);
 
 
 // Programa principal
@@ -26,6 +27,7 @@ int main(void) {
     tela_alterar_cliente();
     tela_excluir_cliente();
     tela_servicos();
+    tela_novoservico();
     return 0;
 }
 
@@ -288,6 +290,36 @@ void tela_servicos(void) {
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+
+void tela_novoservico(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                     = = = = = Serviço = = = = =                         ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                    ======  NOVO SERVIÇO  ======                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                    Descrição :                                          ===\n");
+    printf("===                    Valor :                                              ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Insira as informações do SERVIÇO desejado!\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 }
