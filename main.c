@@ -276,12 +276,13 @@ void tela_servicos(void) {
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
+    printf("===                   = = = = = Cadastrar Serviços = = = = =                ===\n");
     printf("===                                                                         ===\n");
-    printf("===                               1.Manicure                                ===\n");
-    printf("===                               2.Pedicure                                ===\n");
-    printf("===                               3.Hidratação                              ===\n");
-    printf("===                               4.Escova                                  ===\n");
-    printf("===                               5.Penteado                                ===\n");
+    printf("===                             1. Novo Serviço                             ===\n");
+    printf("===                             2. Pesquisar Serviço                        ===\n");
+    printf("===                             3. Alterar Serviço                          ===\n");
+    printf("===                             4. Excluir Serviço                          ===\n");
+    printf("===                             0. Retornar ao menu principal               ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
