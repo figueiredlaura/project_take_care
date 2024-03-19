@@ -12,6 +12,7 @@ void tela_cadastrar_cliente(void);
 void tela_pesquisar_cliente(void);
 void tela_alterar_cliente(void);
 void tela_excluir_cliente(void);
+void tela_serviços(void);
 
 
 // Programa principal
@@ -24,7 +25,7 @@ int main(void) {
     tela_pesquisar_cliente();
     tela_alterar_cliente();
     tela_excluir_cliente();
-
+    tela_serviços();
     return 0;
 }
 
