@@ -14,6 +14,9 @@ void tela_alterar_cliente(void);
 void tela_excluir_cliente(void);
 void tela_servicos(void);
 void tela_novoservico(void);
+void tela_pesquisarservico(void);
+void tela_alterarservico(void);
+void tela_excluirservico(void);
 
 
 // Programa principal
@@ -28,6 +31,9 @@ int main(void) {
     tela_excluir_cliente();
     tela_servicos();
     tela_novoservico();
+    tela_pesquisarserviso();
+    tela_alterarservico();
+    tela_excluirservico;
     return 0;
 }
 
@@ -325,7 +331,93 @@ void tela_novoservico(void) {
 }
 
 
+void tela_pesquisarservico(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                       = = = = = Serviço = = = = =                       ===\n");
+    printf("===                      Developed by @figueiredlaura                       ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                  ======  PERQUISAR SERVIÇO  ======                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===             Informe o ID do serviço que deseja pesquisar:               ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Insira as informações do SERVIÇO desejado!\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
 
 
+void tela_alterarservico(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                       = = = = = Serviço = = = = =                       ===\n");
+    printf("===                      Developed by @figueiredlaura                       ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                  ======  ALTERAR SERVIÇO  ======                        ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                 1. Descrição:                                           ===\n");
+    printf("===                 2. Valor:                                               ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Insira as informações do SERVIÇO que deseja ALTERAR!\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
 
+
+void tela_excluirservico(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                       = = = = = Serviço = = = = =                       ===\n");
+    printf("===                      Developed by @figueiredlaura                       ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                     ======  EXCLUIR SERVIÇO  ======                     ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===               Informe o ID do serviço que deseja excluir :              ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Insira as informações do SERVIÇO que deseja EXCLUIR!\n");
+    printf("\t\t\t>>> ATENÇÂO!!Essa operação não poderá ser desfeita.\n")
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
 
