@@ -171,9 +171,9 @@ void tela_cadastrar_cliente(void) {
     printf("===                                                                         ===\n");
     printf("===                      ======  CADASTRO  ======                           ===\n");
     printf("===                                                                         ===\n");
-    printf("===                         Nome:                                           ===\n");
-    printf("===                         Cpf:                                            ===\n");
-    printf("===                         Telefone/celular:                               ===\n");
+    printf("===                      Nome:                                              ===\n");
+    printf("===                      Cpf:                                               ===\n");
+    printf("===                      Telefone/celular:                                  ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
@@ -286,11 +286,11 @@ void tela_servicos(void) {
     printf("===============================================================================\n");
     printf("===                   = = = = = Cadastrar Serviços = = = = =                ===\n");
     printf("===                                                                         ===\n");
-    printf("===                             1. Novo Serviço                             ===\n");
-    printf("===                             2. Pesquisar Serviço                        ===\n");
-    printf("===                             3. Alterar Serviço                          ===\n");
-    printf("===                             4. Excluir Serviço                          ===\n");
-    printf("===                             0. Retornar ao menu principal               ===\n");
+    printf("===                   1. Novo Serviço                                       ===\n");
+    printf("===                   2. Pesquisar Serviço                                  ===\n");
+    printf("===                   3. Alterar Serviço                                    ===\n");
+    printf("===                   4. Excluir Serviço                                    ===\n");
+    printf("===                   0. Retornar ao menu principal                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
@@ -309,7 +309,7 @@ void tela_novoservico(void) {
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                     = = = = = Serviço = = = = =                         ===\n");
-    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                     Developed by @figueiredlaura                        ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
