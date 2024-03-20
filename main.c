@@ -31,9 +31,9 @@ int main(void) {
     tela_excluir_cliente();
     tela_servicos();
     tela_novoservico();
-    tela_pesquisarserviso();
+    tela_pesquisarservico();
     tela_alterarservico();
-    tela_excluirservico;
+    tela_excluirservico();
     return 0;
 }
 
