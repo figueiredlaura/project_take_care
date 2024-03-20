@@ -416,7 +416,7 @@ void tela_excluirservico(void) {
     printf("===============================================================================\n");
     printf("\n");
     printf("\t\t\t>>> Insira as informações do SERVIÇO que deseja EXCLUIR!\n");
-    printf("\t\t\t>>> ATENÇÂO!!Essa operação não poderá ser desfeita.\n")
+    printf("\t\t\t>>> ATENÇÂO!!Essa operação não poderá ser desfeita.\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 }
