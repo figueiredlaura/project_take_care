@@ -38,6 +38,10 @@ int main(void) {
     tela_pesquisarservico();
     tela_alterarservico();
     tela_excluirservico();
+    tela_agendamentos();
+    tela_pesquisaragendamentos();
+    tela_alteraragendamentos();
+    tela_excluiragendamentos();
     return 0;
 }
 
