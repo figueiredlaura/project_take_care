@@ -486,31 +486,30 @@ void tela_novosagendamentos(void) {
 }
 
 
-void tela_pesquisarservico(void) {
+void tela_pesquisaragendamentos(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===                       = = = = = Serviço = = = = =                       ===\n");
+    printf("===                    = = = = = Agendamentos = = = = =                     ===\n");
     printf("===                      Developed by @figueiredlaura                       ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("===                                                                         ===\n");
-    printf("===                  ======  PERQUISAR SERVIÇO  ======                      ===\n");
+    printf("===                  ======  PERQUISAR AGENDAMENTOS  ======                 ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===             Informe o ID do serviço que deseja pesquisar:               ===\n");
+    printf("===               Informe o nome para pesquisar agendamentos:               ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
-    printf("\t\t\t>>> Insira as informações do SERVIÇO desejado!\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 }
