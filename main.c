@@ -18,7 +18,7 @@ void tela_pesquisarservico(void);
 void tela_alterarservico(void);
 void tela_excluirservico(void);
 void tela_agendamentos(void);
-void tela_novosagendamentos(void);
+void tela_pesquisaragendamentos(void);
 void tela_alteraragendamentos(void);
 void tela_excluiragendamentos(void);
 
