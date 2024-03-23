@@ -545,31 +545,31 @@ void tela_alteraragendamentos(void) {
 }
 
 
-void tela_excluirservico(void) {
+void tela_excluiragendamentos(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===                       = = = = = Serviço = = = = =                       ===\n");
+    printf("===                    = = = = = Agendamentos = = = = =                     ===\n");
     printf("===                      Developed by @figueiredlaura                       ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("===                                                                         ===\n");
-    printf("===                     ======  EXCLUIR SERVIÇO  ======                     ===\n");
+    printf("===                     ======  EXCLUIR AGENDAMENTO  ======                 ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===               Informe o ID do serviço que deseja excluir :              ===\n");
+    printf("===               Informe o NOME que deseja excluir :                       ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
-    printf("\t\t\t>>> Insira as informações do SERVIÇO que deseja EXCLUIR!\n");
+    printf("\t\t\t>>> Insira o nome que deseja EXCLUIR!\n");
     printf("\t\t\t>>> ATENÇÂO!!Essa operação não poderá ser desfeita.\n");
 
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
