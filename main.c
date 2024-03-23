@@ -417,7 +417,39 @@ void tela_excluirservico(void) {
     printf("\n");
     printf("\t\t\t>>> Insira as informações do SERVIÇO que deseja EXCLUIR!\n");
     printf("\t\t\t>>> ATENÇÂO!!Essa operação não poderá ser desfeita.\n");
+
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 }
+
+
+void tela_servicos(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                   = = = = =   Agendamentos    = = = = =                 ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                   = = = = = Cadastrar Agendamentos = = = = =            ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                   1. Novo Agendamento                                   ===\n");
+    printf("===                   2. Pesquisar Agendamentos                             ===\n");
+    printf("===                   3. Alterar Agendamentos                               ===\n");
+    printf("===                   4. Excluir Agendamentos                               ===\n");
+    printf("===                   0. Retornar ao menu principal                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
 
