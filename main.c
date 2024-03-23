@@ -562,7 +562,7 @@ void tela_excluiragendamentos(void) {
     printf("===                     ======  EXCLUIR AGENDAMENTO  ======                 ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===               Informe o NOME que deseja excluir :                       ===\n");
+    printf("===                     Informe o NOME que deseja excluir :                 ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
