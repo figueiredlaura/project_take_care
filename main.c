@@ -6,7 +6,7 @@
 // Assinatura das funções
 void tela_principal(void);
 void tela_sobre(void);
-void tela_equipe(void);
+void tela_dev(void);
 void tela_menucliente(void);
 void tela_cadastrar_cliente(void);
 void tela_pesquisar_cliente(void);
@@ -27,7 +27,7 @@ void tela_excluiragendamentos(void);
 int main(void) {
     tela_principal();
     tela_sobre();
-    tela_equipe();
+    tela_dev();
     tela_menucliente();
     tela_cadastrar_cliente();
     tela_pesquisar_cliente();
@@ -63,10 +63,9 @@ void tela_principal(void) {
     printf("===============================================================================\n");
     printf("===            = = = = = Sistema de Gestão de Salão de Beleza = = = = =     ===\n");
     printf("===                                                                         ===\n");
-    printf("===                      1. Módulo Clientes                                 ===\n");
-    printf("===                      2. Módulo Serviços                                 ===\n");
-    printf("===                      3. Módulo Agendamentos                             ===\n");
-    printf("===                      4. Módulo Pagamentos                               ===\n");
+    printf("===                      1. Serviços                                        ===\n");
+    printf("===                      2. Clientes                                        ===\n");
+    printf("===                      3. Agendamentos                                    ===\n");
     printf("===                      0. Sair                                            ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
@@ -104,7 +103,7 @@ void tela_sobre(void) {
 
 
 }
-void tela_equipe(void) {
+void tela_dev(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
