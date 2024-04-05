@@ -61,29 +61,14 @@ char tela_inform(void)
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
-    printf("\t\t\t>>> Digite a opção esolhida e tecle <ENTER> para continuar a navegação...\n");
+    printf("\t\t\t>>> Digite a opção  desejada e tecle <ENTER> para continuar a navegação...\n");
     scanf("%c", &opcao);
     getchar();
 
+    return opcao;
+
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 void tela_sobre(void) {
@@ -141,4 +126,108 @@ void tela_dev(void) {
     getchar();
 } 
 
+
+char tela_menucliente(void) 
+{
+    char opcao;
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                     = = = = = Menu Cliente = = = = =                    ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                        1. Cadastrar Cliente                             ===\n");
+    printf("===                        2. Pesquisar Cliente                             ===\n");
+    printf("===                        3. Alterar Cliente                               ===\n");
+    printf("===                        4. Excluir Cliente                               ===\n");
+    printf("===                        0. Voltar ao menu principal                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                        Escolha a opção desejada:                        ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Digite a opção  desejada e tecle <ENTER> para continuar a navegação...\n");
+    scanf("%c", &opcao);
+    getchar();
+
+    return opcao;
+} 
+
+
+char tela_servicos(void) 
+{
+    char opcao;
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                    = = = = =   Serviços    = = = = =                    ===\n");
+    printf("===                      Developed by @figueiredlaura                       ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                   = = = = = Cadastrar Serviços = = = = =                ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                   1. Novo Serviço                                       ===\n");
+    printf("===                   2. Pesquisar Serviço                                  ===\n");
+    printf("===                   3. Alterar Serviço                                    ===\n");
+    printf("===                   4. Excluir Serviço                                    ===\n");
+    printf("===                   0. Retornar ao menu principal                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Digite a opção  desejada e tecle <ENTER> para continuar a navegação...\n");
+    scanf("%c", &opcao);
+    getchar();
+
+    return opcao;
+}
+
+char tela_agendamentos(void) 
+{
+    char opcao;
+    system("clear||cls");
+    printf("\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                   = = = = =   Agendamentos    = = = = =                 ===\n");
+    printf("===                       Developed by @figueiredlaura                      ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("===                   = = = = = Cadastrar Agendamentos = = = = =            ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                   1. Novo Agendamento                                   ===\n");
+    printf("===                   2. Pesquisar Agendamentos                             ===\n");
+    printf("===                   3. Alterar Agendamentos                               ===\n");
+    printf("===                   4. Excluir Agendamentos                               ===\n");
+    printf("===                   0. Retornar ao menu principal                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===                                                                         ===\n");
+    printf("===============================================================================\n");
+    printf("===============================================================================\n");
+    printf("\n");
+    printf("\t\t\t>>> Digite a opção  desejada e tecle <ENTER> para continuar a navegação...\n");
+    scanf("%c", &opcao);
+    getchar();
+
+    return opcao;
+}
 
