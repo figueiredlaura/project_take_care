@@ -4,50 +4,50 @@
 
 
 // Assinatura das funções
-void tela_principal(void);
-void tela_sobre(void);
-void tela_dev(void);
-void tela_menucliente(void);
-void tela_cadastrar_cliente(void);
-void tela_pesquisar_cliente(void);
-void tela_alterar_cliente(void);
-void tela_excluir_cliente(void);
-void tela_servicos(void);
-void tela_novoservico(void);
-void tela_pesquisarservico(void);
-void tela_alterarservico(void);
-void tela_excluirservico(void);
-void tela_agendamentos(void);
-void tela_pesquisaragendamentos(void);
-void tela_alteraragendamentos(void);
-void tela_excluiragendamentos(void);
+void telaprincipal(void);
+void telasobre(void);
+void teladev(void);
+void telamenucliente(void);
+void telacadastrar_cliente(void);
+void telapesquisar_cliente(void);
+void telaalterar_cliente(void);
+void telaexcluir_cliente(void);
+void telaservicos(void);
+void telanovoservico(void);
+void telapesquisarservico(void);
+void telaalterarservico(void);
+void telaexcluirservico(void);
+void telaagendamentos(void);
+void telapesquisaragendamentos(void);
+void telaalteraragendamentos(void);
+void telaexcluiragendamentos(void);
 
 
 // Programa principal
 int main(void) {
-    tela_principal();
-    tela_sobre();
-    tela_dev();
-    tela_menucliente();
-    tela_cadastrar_cliente();
-    tela_pesquisar_cliente();
-    tela_alterar_cliente();
-    tela_excluir_cliente();
-    tela_servicos();
-    tela_novoservico();
-    tela_pesquisarservico();
-    tela_alterarservico();
-    tela_excluirservico();
-    tela_agendamentos();
-    tela_pesquisaragendamentos();
-    tela_alteraragendamentos();
-    tela_excluiragendamentos();
+    telaprincipal();
+    telasobre();
+    teladev();
+    telamenucliente();
+    telacadastrar_cliente();
+    telapesquisar_cliente();
+    telaalterar_cliente();
+    telaexcluir_cliente();
+    telaservicos();
+    telanovoservico();
+    telapesquisarservico();
+    telaalterarservico();
+    telaexcluirservico();
+    telaagendamentos();
+    telapesquisaragendamentos();
+    telaalteraragendamentos();
+    telaexcluiragendamentos();
     return 0;
 }
 
 /// Funções
 
-void tela_principal(void) {
+void telaprincipal(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -75,7 +75,7 @@ void tela_principal(void) {
 }
 
 
-void tela_sobre(void) {
+void telasobre(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -103,7 +103,7 @@ void tela_sobre(void) {
 
 
 }
-void tela_dev(void) {
+void teladev(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -131,7 +131,7 @@ void tela_dev(void) {
 } 
 
 
-void tela_menucliente(void) {
+void telamenucliente(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -162,7 +162,7 @@ void tela_menucliente(void) {
 } 
 
 
-void tela_cadastrar_cliente(void) {
+void telacadastrar_cliente(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -191,7 +191,7 @@ void tela_cadastrar_cliente(void) {
 } 
 
 
-void tela_pesquisar_cliente(void) {
+void telapesquisar_cliente(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -219,7 +219,7 @@ void tela_pesquisar_cliente(void) {
     getchar();
 }
 
-void tela_alterar_cliente(void) {
+void telaalterar_cliente(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -249,7 +249,7 @@ void tela_alterar_cliente(void) {
 }
 
 
-void tela_excluir_cliente(void) {
+void telaexcluir_cliente(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -278,7 +278,7 @@ void tela_excluir_cliente(void) {
 }
 
 
-void tela_servicos(void) {
+void telaservicos(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -308,7 +308,7 @@ void tela_servicos(void) {
 }
 
 
-void tela_novoservico(void) {
+void telanovoservico(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -338,7 +338,7 @@ void tela_novoservico(void) {
 }
 
 
-void tela_pesquisarservico(void) {
+void telapesquisarservico(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -368,7 +368,7 @@ void tela_pesquisarservico(void) {
 }
 
 
-void tela_alterarservico(void) {
+void telaalterarservico(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
@@ -398,7 +398,7 @@ void tela_alterarservico(void) {
 }
 
 
-void tela_excluirservico(void) {
+void telaexcluirservico(void) {
     system("clear||cls");
     printf("\n");
     printf("===============================================================================\n");
