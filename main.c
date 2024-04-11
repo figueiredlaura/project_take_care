@@ -63,8 +63,8 @@ void telaprincipal(void) {
     printf("===============================================================================\n");
     printf("===            = = = = = Sistema de Gestão de Salão de Beleza = = = = =     ===\n");
     printf("===                                                                         ===\n");
-    printf("===                      1. Serviços                                        ===\n");
-    printf("===                      2. Clientes                                        ===\n");
+    printf("===                      1. Clientes                                        ===\n");
+    printf("===                      2. Serviços                                        ===\n");
     printf("===                      3. Agendamentos                                    ===\n");
     printf("===                      0. Sair                                            ===\n");
     printf("===============================================================================\n");
