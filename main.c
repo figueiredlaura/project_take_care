@@ -17,10 +17,10 @@ void telanovoservico(void);
 void telapesquisarservico(void);
 void telaalterarservico(void);
 void telaexcluirservico(void);
-void telaagendamentos(void);
-void telapesquisaragendamentos(void);
-void telaalteraragendamentos(void);
-void telaexcluiragendamentos(void);
+void tela_agendamentos(void);
+void tela_pesquisaragendamentos(void);
+void tela_alteraragendamentos(void);
+void tela_excluiragendamentos(void);
 
 
 // Programa principal
