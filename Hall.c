@@ -1,5 +1,5 @@
-#include "./telas/telasmenu.h"
-#include "./sense/sense_telamain.h"
+#include "./Screens/telasmenu.h"
+#include "./Sense/sense_telamain.h"
 
 int main(void)
 {
