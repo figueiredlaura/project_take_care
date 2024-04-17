@@ -167,7 +167,8 @@ void telaservicos(void)
     return option;
 }
 
-void telanovoservico(void) 
+
+void tela_agendamentos(void) 
 {
     char option;
     system("clear||cls");
@@ -176,24 +177,24 @@ void telanovoservico(void)
     printf("===============================================================================\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
-    printf("===                     = = = = = Serviço = = = = =                         ===\n");
-    printf("===                     Developed by @figueiredlaura                        ===\n");
+    printf("===                 = = = = =   AGENDAMENTOS    = = = = =                   ===\n");
+    printf("===                      Developed by @figueiredlaura                       ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
+    printf("===                   = = = = = Agendamentos = = = = =                      ===\n");
     printf("===                                                                         ===\n");
-    printf("===                    ======  NOVO SERVIÇO  ======                         ===\n");
-    printf("===                                                                         ===\n");
-    printf("===                    Descrição :                                          ===\n");
-    printf("===                    Valor :                                              ===\n");
-    printf("===                                                                         ===\n");
+    printf("===                   1. Novo Agendamento                                   ===\n");
+    printf("===                   2. Pesquisar Agendamentos                             ===\n");
+    printf("===                   3. Alterar Agendamento                                ===\n");
+    printf("===                   4. Excluir Agendamentos                               ===\n");
+    printf("===                   0. Retornar ao menu principal                         ===\n");
     printf("===                                                                         ===\n");
     printf("===                                                                         ===\n");
     printf("===============================================================================\n");
     printf("===============================================================================\n");
     printf("\n");
-    printf("\t\t\t>>> Insira as informações do SERVIÇO desejado!\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     scanf("%c", &option);
     getchar();
