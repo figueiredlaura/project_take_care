@@ -1,50 +1,40 @@
-# Nome do executável
-TARGET = main
-
+# My second makefile
+ 
+# Name of the project
+PROJ_NAME=hally
+ 
+# .c files
+C_SOURCE=$(wildcard ./source/*.c)
+ 
+# .h files
+H_SOURCE=$(wildcard ./source/*.h)
+ 
+# Object files
+OBJ=$(C_SOURCE:.c=.o)
+ 
 # Compiler
-CC = gcc
-
-# Flags de compilação
-CFLAGS = -Wall -Wextra
-
-# Diretórios dos arquivos fonte
-LOGIC_DIR = Sense
-SCREENS_DIR = Screens
-# FUNCTION_DIR = function
-
-# Arquivos fonte de lógica
-SENSE_SRCS := $(wildcard $(LOGIC_DIR)/*.c)
-
-# Arquivos fonte de telas
-SCREENS_SRCS := $(wildcard $(SCREENS_DIR)/*.c)
-
-# Arquivos fonte de funções
-# FUNCTION_SRCS := $(wildcard $(FUNCTION_DIR)/*.c)
-
-# Arquivo fonte contendo a função main
-MAIN_SRC = telamain.c
-
-# Todos os arquivos fonte
-# SRCS = $(MAIN_SRC) $(SENSE_SRCS) $(SCREENS_SRCS) $(FUNCTION_SRCS)
-SRCS = $(MAIN_SRC) $(SENSE_SRCS) $(SCREENS_SRCS) 
-
-
-# Objetos gerados
-OBJS = $(SRCS:.c=.o)
-
-# Regra padrão: compila o programa
-all: $(TARGET)
-
-# Regra de compilação do programa
-$(TARGET): $(OBJS)
-	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
-
-# Regra de compilação de arquivos fonte para objetos
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
-
-# Regra para limpar arquivos objeto e o executável
-cleanunix:
-	rm -f $(OBJS)
-cleanwindows:
-	del /Q $(OBJS)
+CC=gcc
+ 
+# Flags for compiler
+CC_FLAGS=-c         \
+         -W         \
+         -Wall      \
+         -ansi      \
+         -pedantic
+ 
+#
+# Compilation and linking
+#
+all: $(PROJ_NAME)
+ 
+$(PROJ_NAME): $(OBJ)
+	$(CC) -o $@ $^
+ 
+%.o: %.c %.h
+	$(CC) -o $@ $< $(CC_FLAGS)
+ 
+main.o: Hall.c $(H_SOURCE)
+	$(CC) -o $@ $< $(CC_FLAGS)
+ 
+clean:
+	rm -rf *.o $(PROJ_NAME) *~
